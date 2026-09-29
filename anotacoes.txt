@@ -1,0 +1,307 @@
+
+TAG header
+
+para um menu com navegacao por exemplo 
+           Inicio --- Sobre --- Servicos --- Contato   
+
+deve-se criar uma divisao nav dentro do header. exemplo:
+
+<body>
+    <header>    
+        <nav> 
+            <a href="index.html">Início</a>
+            <a href="Sobre.html">Sobre</a>
+            <a href="Serviços.html">Serviços</a>
+            <a href="Contato.html">Contato</a>
+        </nav>   
+    </header>           
+</body>
+
+
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3834.6793316809703!2d-48.03617602486509!3d-16.030199884643615!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x93598198bd46ba51%3A0x5b11ac714f479209!2sCentro%20Cl%C3%ADnico%20Inovare!5e0!3m2!1spt-BR!2sbr!4v1790215659709!5m2!1spt-BR!2sbr" 
+width="600" 
+height="450" 
+style="border:0;" 
+allowfullscreen="" 
+loading="lazy" 
+referrerpolicy="strict-origin-when-cross-origin"></iframe>
+
+
+body {
+    background-image: url("img/undraw_medicine_hqqg.svg");
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position: 95% 280px;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ }
+
+ guardar para a pagina sobre o endereco com as seguintes infos:
+
+ html:
+
+ <div class="mapa">
+        <h2>Onde estamos localizados:</h2>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3834.6793316809703!2d-48.03617602486509!3d-16.030199884643615!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x93598198bd46ba51%3A0x5b11ac714f479209!2sCentro%20Cl%C3%ADnico%20Inovare!5e0!3m2!1spt-BR!2sbr!4v1790215659709!5m2!1spt-BR!2sbr" 
+            width="100%" 
+            height="200" 
+            style="border:0;" 
+            allowfullscreen="" 
+            loading="lazy" 
+            referrerpolicy="strict-origin-when-cross-origin"></iframe>
+</div>
+
+CSS:
+
+.mapa {
+    border-radius: 0 20px 20px 0;
+    width: 830px;
+    text-align: center;
+    align-items: center;
+    margin-top: 5px;
+    padding: 20px;
+    background: linear-gradient(to right, rgb(240, 241, 241), rgb(125, 245, 245));
+    color: rgb(82, 133, 226)
+}
+.mapa iframe {
+   border-radius: 20px;
+
+}
+
+Backup abaixo:
+
+
+body {
+    background-image: url("img/bluebackground.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: auto 280px;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ }
+ header nav {
+    display: flex;
+    flex-direction: row;
+    gap: 80px;
+    justify-content: center;
+ }
+ header a {
+    color: rgb(30, 49, 151);
+    text-decoration: none;
+    border-radius: 20px;
+    font-size: large;
+    padding:  15px 20px;
+    transition: 0.4s;
+ }
+ header {
+    background: linear-gradient(to right, rgb(230, 235, 236), rgb(125, 245, 245));
+    padding: 15px 0;
+ }
+ header a:hover {
+    background-color: rgb(230, 235, 236);
+ }
+ .panel {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;   
+   width: 800px;
+   border-radius: 20px;
+   min-height: auto;
+   padding-left: 35px;
+   padding-right: 35px;
+   background: linear-gradient(to right, rgb(240, 241, 241), rgb(63, 245, 245, 0));
+   color: rgb(37, 84, 172);
+}
+.panel h1 {
+   margin-top: -10px;
+   margin-bottom: 10px;
+   border-radius: 20px;
+}
+.panel p {
+   margin-bottom: 35px;
+}
+.logo {
+   padding-top: 80px;
+   padding-bottom: 50px;
+   width: 320px;
+   display: block;
+   margin: 0 auto 5px auto;
+}
+
+.panel-info {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    width: 800px;
+    border-radius: 20px;
+    margin-top: 5px;
+    padding: 35px;
+    background: linear-gradient(to right, rgb(240, 241, 241), rgb(63, 245, 245, 0));
+    color: rgb(37, 84, 172);
+}
+.mapa {
+    border-radius: 0 20px 20px 0;
+    width: 830px;
+    text-align: center;
+    align-items: center;
+    margin-top: 5px;
+    padding: 20px;
+    background: linear-gradient(to right, rgb(240, 241, 241, 1), rgb(125, 245, 245, 0));
+    color: rgb(37, 84, 172);
+}
+.mapa iframe {
+   border-radius: 20px;
+
+}
+
+.animacao-fundo {
+   position: fixed;
+   right: 300px;
+   top: 50%;
+
+   width: 400px;
+   height: 400px;
+
+   opacity: 0.5;
+   transform: translateY(-50%)
+   
+   
+}
+
+.especialidades {
+   font-size: x-large;
+   text-align: start;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+   justify-content: center;
+   width: 800px;
+   border-radius: 20px;
+   margin-top: 5px;
+   padding: 35px;
+   background: linear-gradient(to right, rgb(240, 241, 241, 1), rgb(63, 245, 245, 0));
+   color: rgb(37, 84, 172);
+}
+
+.clicaaqui {
+   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   font-size: larger;
+   font-weight: 600;
+   text-align: center;
+   padding: 25px;
+   border-radius: 65px;
+   background: rgb(33, 70, 80);
+   color: white;
+   text-decoration: none;
+}
+
+a {
+   text-decoration: none;
+}
+
+@media (max-width: 768px) {
+   .animacao-fundo {
+      position: relative;
+      top: auto;
+      right: auto;
+      width: 200px;
+      display: block;
+      margin: 0 auto;
+      right: 0;
+      transform: none;
+      top: 0;
+      opacity: 1;
+
+   }
+
+   .panel,
+   .panel-info,
+   .especialidades,
+   .mapa {
+       width: 100%;
+       box-sizing: border-box;
+
+   }
+   
+   header nav {
+      gap: 10px;
+      flex-wrap: wrap;
+   }
+   
+}
+
+backup container SOBRE
+
+
+--------HTML-------------
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre</title>
+    <link rel="icon" href="img/favic.png">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="pagina-sobre">
+    <header>
+        <nav>
+            <a href="index.html">Início</a>
+            <a href="Sobre.html">Sobre</a>
+            <a href="Serviços.html">Serviços</a>
+            <a href="Contato.html">Contato</a>
+        </nav>
+    </header>
+    <div class="instagram">
+        <img src="img/instagrampng.png" alt="Instagram" class="instagram-logo">
+        <p>Nosso Instagram</p>
+    </div>
+    <div class="whatsapp">
+        <img src="img/whatsapppng.png" alt="WhatsApp" class="whats-logo">
+        <p>Nosso WhatsApp</p>
+    </div>
+</body>
+</html>
+
+---------------CSS------------------
+
+.instagram {
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   gap: 20px;
+   width: 800px;
+   border-radius: 20px;
+   padding: 20px 35px;
+   margin-top: 5px;
+   background: linear-gradient(to right, rgb(240, 241, 241), rgb(63, 245, 245, 0));
+   color: black;
+}
+.instagram-logo {
+   width: 50px;
+   height: 50px;
+}
+
+.whatsapp {
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   gap: 20px;
+   width: 800px;
+   border-radius: 20px;
+   padding: 20px 35px;
+   margin-top: 5px;
+   background: linear-gradient(to right, rgb(240, 241, 241), rgb(63, 245, 245, 0));
+   color: black;
+}
+
+.whats-logo {
+   width: 50px;
+   height: 50px;
+}
