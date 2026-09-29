@@ -42,6 +42,7 @@ body {
    color: rgb(37, 84, 172);
 }
 .panel h1 {
+   text-align: center;
    margin-top: -10px;
    margin-bottom: 10px;
    border-radius: 20px;
