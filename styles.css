@@ -78,7 +78,7 @@ body {
     align-items: center;
     margin-top: 5px;
     padding: 20px;
-    background-color: rgb(127, 207, 203);
+    background: linear-gradient(to right, rgb(230, 235, 236), rgb(125, 245, 245));
     color: rgb(22, 87, 95);
 }
 .mapa iframe {
@@ -214,6 +214,7 @@ body {
 }
 
 .divcontainer02 {
+   font-weight: 600;
    width: 600px;
    justify-content: center;
    justify-items: center;
@@ -224,7 +225,7 @@ body {
    margin: 0 auto;
    margin-top: 35px;
    min-height: 10vh;
-   background: linear-gradient(to right, rgb(127, 207, 203), rgba(124, 185, 185, 0))
+   background: linear-gradient(to right, rgb(230, 235, 236), rgb(125, 245, 245));
 }
 
 .painel {
@@ -253,3 +254,39 @@ body {
    text-decoration: none;
    color: rgb(22, 60, 66);
 }
+
+@media (max-width: 768px) {
+   body {
+   background-image: url("img/bluebackground.jpg");
+   background-size: cover;
+   background-position: center;
+   background-attachment: fixed;
+   }
+      .pagina-sobre .divcontainer02 {
+        border-radius: 0;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        padding: 20px;
+        box-sizing: border-box;
+    }
+
+    .pagina-sobre .item {
+        width: 100%;
+        max-width: 350px;
+        box-sizing: border-box;
+    }
+
+    .pagina-sobre .painel {
+        width: 100%;
+        box-sizing: border-box;
+        border-radius: 0;
+    }
+
+    .pagina-sobre .mapa {
+        width: 100%;
+        box-sizing: border-box;
+    }
+   }
