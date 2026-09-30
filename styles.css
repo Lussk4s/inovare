@@ -317,3 +317,48 @@ body {
       width: 60px;
       height: auto;
    }
+
+ .logo-servicos {
+    width: 500px;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    padding: 110px;
+   }
+
+ .cards {
+   background-color: rgb(29, 136, 185);
+   color: white;
+   width: 180px;
+   height: 280px;
+   border-radius: 25px;
+   box-shadow: 4px 4px 120px white;
+   padding: 20px;
+   justify-content: center;
+   justify-items: center;
+   text-align: center;
+}
+.cards img {
+   width: 64px;
+   height: 64px;
+   margin-top: 15px;
+
+}
+.cards h1 {
+   font-size: x-large;
+   margin-bottom: 50px;
+}
+.cards h2 {
+   font-size: medium;
+}
+.container-cards {
+   display: flex;
+   justify-content: center;
+   gap: 20px;
+   flex-wrap: wrap;
+   
+}
+   
