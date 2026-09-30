@@ -14,7 +14,7 @@ body {
     justify-content: center;
  }
  header a {
-    color: rgb(30, 49, 151);
+    color: white;
     text-decoration: none;
     border-radius: 20px;
     font-size: large;
@@ -22,11 +22,11 @@ body {
     transition: 0.4s;
  }
  header {
-    background: linear-gradient(to right, rgb(230, 235, 236), rgb(125, 245, 245));
+    background: linear-gradient(to right, rgb(24, 70, 155), rgb(125, 245, 245));
     padding: 15px 0;
  }
  header a:hover {
-    background-color: rgb(230, 235, 236);
+    background-color: rgb(10, 99, 172);
  }
  .panel {
    display: flex;
