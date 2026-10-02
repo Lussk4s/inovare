@@ -274,22 +274,31 @@ body {
         box-sizing: border-box;
     }
 
-    .pagina-sobre .item {
+      .pagina-sobre .item {
         width: 100%;
         max-width: 350px;
         box-sizing: border-box;
     }
 
-    .pagina-sobre .painel {
+      .pagina-sobre .painel {
         width: 100%;
         box-sizing: border-box;
         border-radius: 0;
     }
 
-    .pagina-sobre .mapa {
+      .pagina-sobre .mapa {
         width: 100%;
         box-sizing: border-box;
     }
+      .container-icons {
+         justify-content: center;
+         justify-items: center;
+         align-items: center;
+      }
+      
+      .container-icons .logo-servicos {
+         width: 270px;
+      }
    }
 
  .referencia {
@@ -361,4 +370,6 @@ body {
    flex-wrap: wrap;
    
 }
+
+
    
