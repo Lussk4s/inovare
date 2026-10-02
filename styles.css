@@ -258,10 +258,10 @@ body {
 
 @media (max-width: 768px) {
    body {
-   background-image: url("img/bluebackground.jpg");
    background-size: cover;
    background-position: center;
    background-attachment: fixed;
+   
    }
       .pagina-sobre .divcontainer02 {
         border-radius: 0;
