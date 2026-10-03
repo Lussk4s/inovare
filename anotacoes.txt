@@ -305,3 +305,36 @@ backup container SOBRE
    width: 50px;
    height: 50px;
 }
+
+
+BACKUP lottie da pagina Contato
+
+</div>
+            <div class="animacao-horario2">
+                <lottie-player
+                    src="img/anim/incomingcall.json"
+                    background="transparent"
+                    speed="1"
+                    loop
+                    autoplay>
+                </lottie-player>
+            </div>
+ </div>
+    <div class="painel-animado">
+        <div class="painel-horario">
+            <div class="texto-horario">
+                <h1>Horario de Funcionamento</h1>
+                <p>Segunda a Sexta das 07:00 às 17:00</p>
+                <p>Sábado das 07:00 aos 12:00</p>
+            </div>
+        </div>
+            <div class="animacao-horario">
+                <lottie-player
+                    src="img/anim/clockanimation.json"
+                    background="transparent"
+                    speed="1"
+                    loop
+                    autoplay>
+                </lottie-player>
+        </div>
+    </div>
