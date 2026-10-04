@@ -466,7 +466,7 @@ body {
    height: 600px;
    opacity: 0.8;
    margin-left: 1300px;
-   margin-top: -450px;
+   margin-top: -460px;
 }
 .email:hover {
     transform: scale(1.03); 
@@ -488,8 +488,11 @@ body {
    color: rgb(24, 79, 105);
    background: linear-gradient(to right, rgb(230, 235, 236), rgb(125, 245, 245, 0))
 }
-.botao-avaliacao:hover, .botao-avaliacao:visited {
-   transform: scale(1.03);
-   text-decoration: none;
-   color: inherit;
+.botao-avaliacao,
+.botao-avaliacao:link,
+.botao-avaliacao:visited,
+.botao-avaliacao:hover,
+.botao-avaliacao:active {
+    color: inherit;
+    text-decoration: none;
 }
