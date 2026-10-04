@@ -380,14 +380,13 @@ body {
     transform: scale(1.03);
 }
 .painel-contato1 { 
+   padding: 10px;
    user-select: none;
-   margin: 10px;
    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
    text-align: center;
    display: flex;
    flex-direction: column;
    align-items: center;
-   border-radius: 20px;
    justify-content: center;
    justify-items: center;
    width: 600px;
@@ -408,13 +407,12 @@ body {
 
 .painel-horario { 
    user-select: none;
-   margin: 10px;
+   padding: 10px;
    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
    text-align: center;
    display: flex;
    flex-direction: column;
    align-items: center;
-   border-radius: 20px;
    justify-content: center;
    justify-items: center;
    width: 600px;
@@ -443,13 +441,12 @@ body {
 }
 
 .email { 
-   margin: 10px;
+   padding: 20px;
    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
    text-align: center;
    display: flex;
    flex-direction: column;
    align-items: center;
-   border-radius: 20px;
    justify-content: center;
    justify-items: center;
    width: 600px;
@@ -469,9 +466,30 @@ body {
    height: 600px;
    opacity: 0.8;
    margin-left: 1300px;
-   margin-top: -230px;
+   margin-top: -450px;
 }
 .email:hover {
     transform: scale(1.03); 
     }
-    
+.avaliacao-google { 
+   padding: 20px;
+   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   text-align: center;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   justify-items: center;
+   width: 600px;
+   height: 150px;
+   text-decoration: none;
+   color: inherit;
+   font-size: medium;
+   color: rgb(24, 79, 105);
+   background: linear-gradient(to right, rgb(230, 235, 236), rgb(125, 245, 245, 0))
+}
+.botao-avaliacao:hover, .botao-avaliacao:visited {
+   transform: scale(1.03);
+   text-decoration: none;
+   color: inherit;
+}

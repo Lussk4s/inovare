@@ -338,3 +338,6 @@ BACKUP lottie da pagina Contato
                 </lottie-player>
         </div>
     </div>
+
+                        PAGINA CONTATOS 04-10-2026
+    retirei a tag margin e a tag border-radius da pagina Contatos, pareceu mais limpo.
